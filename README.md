@@ -56,5 +56,6 @@ if line.split(':').strip() == 'root':
 username = line.split(':').strip()
 if username == 'root':
     処理...
-
+ド・モルガンの法則を使う
+if (not(a and not b))はif(not a or b)にできる
 ```
