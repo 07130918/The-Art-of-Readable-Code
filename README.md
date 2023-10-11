@@ -1,6 +1,6 @@
-# Readable_code
+# [Readable_code](https://mcusoft.files.wordpress.com/2015/04/the-art-of-readable-code.pdf)
 
-## 鍵となる考え
+## 読みやすさの基本定理/鍵となる考え
 ```
     コードは他の人(未来の自分含む)が最短時間で理解できるように書かなければならない
 ```
