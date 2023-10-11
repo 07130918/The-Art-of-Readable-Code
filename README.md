@@ -1,4 +1,4 @@
-# [Readable_code](https://mcusoft.files.wordpress.com/2015/04/the-art-of-readable-code.pdf)
+# [The Art of Readable Code](https://mcusoft.files.wordpress.com/2015/04/the-art-of-readable-code.pdf)
 
 ## 読みやすさの基本定理/鍵となる考え
 ```
