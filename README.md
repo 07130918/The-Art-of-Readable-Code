@@ -58,12 +58,20 @@
 ```
     条件式は左辺が調査対象の式(変化する)で右辺が比較対象の式(あまり変化しない)
     つまり、より安定した値を右辺に置く
-    例: if(length > 10)
+```
+```python
+    if(length > 10)
+```
+```
     条件式はなるべく肯定形を先に処理
-    例 if(a == b):
+```
+```python
+    if(a == b):
         ...
-       else:
+    else:
         ...
+```
+```
     ただエラーログ等先に注目すべきものがある場合は否定形の条件式を持っても良い
     ガード節の実装
     早めに返してネストを削除する
@@ -71,16 +79,27 @@
 ```
 
 ## 巨大な式の分割
-```
+#### 説明変数を用意する
+bad
+```python
     if line.split(':').strip() == 'root':
         処理...
-    は説明変数を用意する
-
+```
+good
+```python
     username = line.split(':').strip()
     if username == 'root':
         処理...
-    ド・モルガンの法則を使う
-    if (not(a and not b))はif(not a or b)にできる
+```
+
+#### ド・モルガンの法則を使う
+bad
+```python
+    if (not(a and not b)):
+```
+good
+```python
+    if(not a or b):
 ```
 
 ## 変数
